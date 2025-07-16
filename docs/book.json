@@ -1,0 +1,45 @@
+{
+  "title": "Fin Tracker Bot - User Guide",
+  "description": "Complete user guide for Fin Tracker Bot - Your intelligent Telegram companion for cryptocurrency analysis",
+  "author": "Fin Tracker Team",
+  "language": "en",
+  "gitbook": ">=3.0.0",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "theme-default",
+    "search",
+    "sharing",
+    "fontsettings",
+    "livereload",
+    "copy-code-button",
+    "prism",
+    "expandable-chapters"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": true,
+      "google": false,
+      "weibo": false,
+      "instapaper": false,
+      "vk": false,
+      "all": ["twitter", "telegram"]
+    },
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    }
+  },
+  "variables": {
+    "bot_name": "Fin Tracker Bot",
+    "version": "1.0.0",
+    "last_updated": "2024"
+  }
+}
